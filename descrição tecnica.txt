@@ -1,0 +1,4 @@
+
+Descrição Técnica das Alterações:
+A modificação do grupo de segurança restringe o acesso SSH à instância EC2, permitindo conexões apenas de endereços IP específicos, essa alteração melhora a segurança, limitando o acesso SSH a apenas IPs confiáveis.
+A inclusão de um bloco user_data na configuração da instância EC2 permite que um script de inicialização instale e inicie automaticamente o Nginx logo após a criação da instância
